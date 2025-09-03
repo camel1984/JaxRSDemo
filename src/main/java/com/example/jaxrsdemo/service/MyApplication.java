@@ -5,9 +5,7 @@ import jakarta.ws.rs.core.Application;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * @author Pavel Bucek
- */
+
 @ApplicationPath("/")
 public class MyApplication extends Application {
     @Override
