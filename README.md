@@ -1,6 +1,7 @@
 # JaxRSDemo
 
 1. start wsl
+
 wsl
 
 2. log into ec2 machine:
