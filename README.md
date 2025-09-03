@@ -5,7 +5,7 @@ wsl
 
 2. log into ec2 machine:
 
-ssh -i /mnt/d/myAWSAccount/mykey.pem  ec2-user@ec2-54-85-129-223.compute-1.amazonaws.com
+ssh -i /mnt/d/myAWSAccount/mykey.pem  host
 
 
 3. jetty commands:
@@ -21,4 +21,4 @@ java -jar $JETTY_HOME/start.jar
 
 4. copy war file into ec2 server:
 
-scp -i /mnt/d/myAWSAccount/mykey.pem JaxRSDemo-1.0-SNAPSHOT.war ec2-user@ec2-54-85-129-223.compute-1.amazonaws.com:/home/ec2-user/server/jetty-base/webapps
+scp -i /mnt/d/myAWSAccount/mykey.pem JaxRSDemo-1.0-SNAPSHOT.war host:/home/ec2-user/server/jetty-base/webapps
