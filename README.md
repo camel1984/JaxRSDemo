@@ -66,6 +66,14 @@ Enabled Modules:
 
 
 
+also add following environemnt variables into .bashrc:
+
+export JETTY_HOME=/home/ec2-user/server/jetty-home-12.0.25
+export JETTY_BASE=/home/ec2-user/server/jetty-base
+
+
+
+
 
 
 
